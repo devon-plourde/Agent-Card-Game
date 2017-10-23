@@ -1,6 +1,6 @@
 MAS agent_game {
 
-	infrastructure: Centralised
+infrastructure: Centralised
 
 	environment: agent_game.GetBit(1000, 4, agent1, agent2, agent3, agent4)
 
