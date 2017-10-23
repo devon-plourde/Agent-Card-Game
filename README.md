@@ -1,6 +1,7 @@
 # Agent-Card-Game
 
 This project uses the Jason interpreter plugin for Eclipse:
+
 http://jason.sourceforge.net/wp/
 
 This project uses a card game as an evironment for a multi-agent system. The game is based off a card
