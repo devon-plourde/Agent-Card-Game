@@ -1,0 +1,30 @@
+/*		Card[] realValues = new Card[table.length];
+		
+		//Detects ties amongst player cards
+		for(int i = 0; i < table.length; ++i)
+		{
+			boolean tie = false;
+			for(int j = 0; j < table.length; ++j)
+			{				
+				if(i != j && table[i].getVal() == table[j].getVal())
+					tie = true;
+			}
+			if(!tie)
+				realValues[i] = new Card(table[i].getVal(), table[i].getColor());
+			else
+				realValues[i] = new Card(0, table[i].getColor());
+		}
+		
+		
+		//Sorts the cards based on their values. (Insertion Sort)
+		for(int i = 1; i < realValues.length; ++i)
+		{
+			Card temp = realValues[i];
+			int j;
+		    for(j = i-1; j >= 0 && realValues[i].getVal() < temp.getVal(); j--)
+		    {
+		    	realValues[j+1] = realValues[j];
+		    }
+		    	realValues[j+1] = temp;
+		}	
+*/	

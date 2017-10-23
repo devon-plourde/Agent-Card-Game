@@ -1,0 +1,38 @@
+MAS agent_game {
+
+	infrastructure: Centralised
+
+	environment: agent_game.GetBit(1000, 4, agent1, agent2, agent3, agent4)
+
+	agents:
+		agent1 random_player;
+		agent2 front_player;
+		agent3 noTie_player;
+		agent4 aggressive_player;
+
+//		agent1 random_player;
+//		agent2 front_player;
+//		agent3 random_player;
+//		agent4 random_player;
+
+//		agent1 front_player;
+//		agent2 front_player;
+//		agent3 front_player;
+//		agent4 aggressive_player;
+
+//		agent1 front_player;
+//		agent2 front_player;
+//		agent3 front_player;
+//		agent4 noTie_player;
+
+//		agent1 noTie_player;
+//		agent2 noTie_player;
+//		agent3 aggressive_player;
+//		agent4 aggressive_player;
+
+
+		
+
+	aslSourcePath:
+		"src/asl";
+}
