@@ -1,4 +1,4 @@
-# Agent-Card-Game
+# Multi-Agent-Game
 
 This project uses the Jason interpreter plugin for Eclipse:
 
